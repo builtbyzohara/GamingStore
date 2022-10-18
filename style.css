@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: #611ae4;
+}
+
+.navBar {
+    margin-top: 15px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    display: flex;
+}
+h1 {
+    font-size: 65px;
+    flex: 1;
+    padding-left: 100px ;
+}
+
+.rightNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex: 1;
+    padding: 0px 190px;
+
+}
+
+#cart {
+    transform: scaleX(-1);
+}
+
+#cartitemno {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#search {
+    width: 70px;
+    margin-left: 40px;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.heroContent {
+    background-color: #cfc4c4;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    color: black;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#rightChev {
+    transform: scaleX(-1);
+}
+
+.barAlt {
+    background-color: #cfc4c4;
+    width: auto;
+    height: 40px;
+    padding: 0px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section {
+    background-color: slategray;
+    height: 10px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.section2 {
+    background-color: #8a2be2;
+    height: 10px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.section3 {
+    background-color: slategrey;
+    height: 10px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.options {
+    width: auto;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.firstoption {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-right: 60px;
+} 
+
+.optionimg {
+    width: 300px;
+}
+
+.icons {
+    height: 50px;
+}
+
+.bottom {
+    display: flex;
+}
+
+#discount {
+    display: block;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+.pricefirst {
+    text-decoration: line-through;
+}
+
+.buybutton {
+    background-color: rgb(55, 182, 55);
+    color: white;
+    padding: 10px;
+    font-size: 14pt;
+    box-shadow: 2px 2px slategray;
+}
+
+.disAmt {
+    background-color: #611ae4;
+    color: white;
+    padding: 10px;
+    font-size: 14pt;
+}
+
+.bottom {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}

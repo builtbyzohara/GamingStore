@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zohara's Yellow Belt Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+    <div class="navBar">
+        <h1>
+            <span style="color: #fff;">Gaming</span>
+            <span style="color: #611ae4">Store</span>
+        </h1>
+        <div class="rightNav">
+            <select name="currency">
+                <option>Euro €</option>
+                <option>Dollar $</option>
+                <option>Shekel</option>
+                <option>Peso</option>
+            </select>
+            <div class="cart">
+                <img id="cart" src="images/cart-light.png" alt="cart">
+                <p id="cartitemno">0</p>
+            </div>
+            <img id="search" src="images/search-light.png" alt="search-light">
+        </div>
+    </div>
+    <div class="heroContent">
+        <h2>Highlights</h2>
+        <div class="banner">
+            <img onclick="backTonormal(this)" src="images/chevron-left.png" alt="left-arrow">
+            <img id="cafe-neko" src="images/cafe-neko.png" alt="main-banner-image">
+            <img onclick="switchImg(this)" id="rightChev" src="images/chevron-left.png" alt="right-arrow">
+        </div>
+        <div class="barAlt">
+            <div class="section"></div>
+            <div class="section2"></div>
+            <div class="section3"></div>
+            <div class="section"></div>
+        </div>
+        <div class="options">
+            <div class="firstoption">
+                <img class="optionimg" src="images/cafe-neko.png" alt="cafe-neko">
+                <h3>Cafe Neko: Gold Edition</h3>
+                <img class="icons" src="images/windows.png" alt="windows-icon">
+                <img class="icons" src="images/apple.png" alt="apple-icon">
+                <div class="bottom">
+                    <button class="disAmt">-20%</button>
+                    <div class="discount">
+                        <p class="pricefirst">€ 14.98</p>
+                        <p>€ 10.49</p>
+                    </div>
+                    <button class="buybutton" onclick="increaseCart('#cartitemno')">Buy</button>
+                </div>
+            </div>
+            <div class="firstoption">
+                <img class="optionimg" src="images/pixel-ninjas-2.png" alt="pixel-ninjas-2">
+                <h3>Pixel Ninjas 2</h3>
+                <img class="icons" src="images/windows.png" alt="windows-icon">
+                <img class="icons" src="images/apple.png" alt="apple-icon">
+                <div class="bottom">
+                    <button class="disAmt">-10%</button>
+                    <div class="discount">
+                        <p class="pricefirst">€ 8.19</p>
+                        <p>€ 7.39</p>
+                    </div>
+                    <button class="buybutton" onclick="increaseCart('#cartitemno')">Buy</button>
+                </div>
+            </div>
+            <div class="firstoption">
+                <img class="optionimg" src="images/stonepunk.png" alt="stone-punk">
+                <h3>Stonepunk 10000 BCE</h3>
+                <img class="icons" src="images/windows.png" alt="windows-icon">
+                <img class="icons" src="images/apple.png" alt="apple-icon">
+                <img onclick="alert('This game is supported on Linux')" class="icons" src="images/linux.png" alt="linux-icon">
+                <div class="bottom">
+                    <button class="disAmt">NEW</button>
+                    <div class="discount">
+                        <p>€ 19.99</p>
+                    </div>
+                    <button class="buybutton" onclick="increaseCart('#cartitemno')">Buy</button>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
